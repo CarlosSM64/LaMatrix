@@ -1,5 +1,5 @@
-km = int(input("Ingrese cantidad de Kilometros: "))
-ltrs = int(input("Ingrese cantidad de Litros: "))
+km = float(input("Ingrese cantidad de Kilometros: "))
+ltrs = float(input("Ingrese cantidad de Litros: "))
 consumo = ltrs/km
 
 print("La cantidad consumida es "+ str(consumo))
